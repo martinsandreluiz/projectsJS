@@ -1,0 +1,58 @@
+#count-label {
+	font-size: 10em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: block;
+	text-align: center;
+}
+
+#btn-container {
+	text-align: center;
+}
+.btns {
+	font-size: 1.5em;
+	padding: 10px 20px;
+	margin: 10px 30px;
+	color: white;
+	background-color: rgb(140, 209, 248);
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+.btns:hover {
+	background-color: rgb(87, 129, 154);
+	
+}
+
+.increase {
+	color:  blue;
+}
+.decrease {
+	color: red;
+}
+
+/* --------------------------------------------------- */
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter-container {
+    text-align: center;
+}
+
+#counter {
+    font-size: 2em;
+}
+
+.increase {
+    color: blue;
+}
+
+.decrease {
+    color: red;
+} */
