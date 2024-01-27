@@ -29,6 +29,29 @@ resetBtn.onclick = function() {
 	// countLabel.textContent = count;
 	updateCountAndColor();
 }
+
+// ************************ ROLL THE DICE ******************
+const buttonRoll = document.querySelector("#btn-roll");
+const label1Roll = document.getElementById("label1-roll");
+const label2Roll = document.getElementById("label2-roll");
+const label3Roll = document.getElementById("label3-roll");
+
+const MIN = 1;
+const MAX = 6;
+let randomNum1;
+let randomNum2;
+let randomNum3;
+
+buttonRoll.onclick = function () {
+	randomNum1 = Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
+	randomNum2 = Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
+	randomNum3 = Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
+
+	label1Roll.textContent = randomNum1;
+	label2Roll.textContent = randomNum2;
+	label3Roll.textContent = randomNum3;
+	
+}
 // *****************************chat gpt ************************************
 
 // let counterValue = 0;
